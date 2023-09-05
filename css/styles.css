@@ -1,8 +1,9 @@
 /* Global Variables */
 :root {
   --primary-color: #55aae7;
-  --secondary-color: #f1f5f8;
+  --header-color: #ffffff;
   --text-color: #2b2b2b;
+  --body-color: #f1f5f8;
 }
 
 /* Reset styles */
@@ -15,13 +16,13 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--secondary-color);
+  background-color: var(--body-color);
 }
 
 .content-layout {
   min-width: 20em;
   width: 100%;
-  background-color: #ffffff;
+  background-color: var(--body-color);
   box-shadow: 0em 0.3em 0.8em rgba(0, 0, 0, 0.1);
 }
 
@@ -59,7 +60,7 @@ body {
   position: relative;
   top: 0;
   width: 100%;
-  background-color: #ffffff;
+  background-color: var(--body-color);
 }
 
 .nav-routes__list {
@@ -126,7 +127,7 @@ body {
 
   .nav-routes__link:hover {
     padding: 0.5em 1em;
-    background-color: #ffffff;
+    background-color: var(--body-color);
     color: var(--primary-color);
   }
 
